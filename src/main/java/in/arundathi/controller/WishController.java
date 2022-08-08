@@ -10,7 +10,7 @@ public class WishController {
 	public ModelAndView wishMsg() {
 		
 		ModelAndView mv=new ModelAndView();
-		mv.addObject("wish", "All the Best..");
+		mv.addObject("wish", "All the very Best..");
 		mv.setViewName("wish");
 		return mv;
 	}
